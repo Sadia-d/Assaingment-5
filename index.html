@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assaingment-5</title>
-    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- ///// talwind and daisync cdn-->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -13,7 +14,7 @@
 </head>
 <body class="w-[1200px] m-auto">
     
-    <header>
+    <header class="raleway-font">
         <!-- navber start -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -46,11 +47,11 @@
         <!-- navber end -->
 
         <!-- banner section start -->
-        <div class="hero rounded-[32px] h-[550px]" style="background-image: url(images/banner.png);">
+        <div class="hero rounded-[32px] h-[550px] flex justify-center items-center" style="background-image: url(images/banner.png);">
           <div class=""></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-md">
-              <h1 class="mb-5 text-6xl text-white  w-[700px]     font-extrabold">End-to-End Travel with <span class="text-[#1DD100]">P Paribahan</span></h1>
+              <h1 class="mb-5 text-6xl text-white font-bold">End-to-End Travel with <span class="text-[#1DD100]">P Paribahan</span></h1>
               <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
               <button class="btn text-black bg-[#1DD100] border-0">Buy Tickets</button>
             </div>
@@ -59,7 +60,90 @@
         <!-- banner section end -->
     </header>
     <main>
+      <section class="offers mt-24">
+        <h1 class="text-4xl font-bold text-center">Best offers for you</h1>
+        <div class="flex gap-6 mt-12">
+          <div class="  bg-[#FFBF0F] flex rounded-3xl lg:w-[585px]">
+            <div class="inter-font p-12 flex flex-col">
+               <span class="text-4xl font-black">15% OFF </span><br>
+               <span class="text-xl font-semibold text-[#030712CC]"> on your next purchase </span><br>
+               <span class="text-lg font-medium text-[#03071280]"> use by January 2024</span>
+            </div>
+              <img src="images/cupon-devider.png" alt="" class="ml-6">
+              <div class="raleway-font flex flex-col justify-center pl-5"> 
+                <span class="text-3xl font-bold">NEW<sub>15</sub></span> <br>
+                <span class="text-xl font-medium text-[#03071266]">Coupon Code</span>
+              </div>
+          </div>
 
+          <div class="  bg-[#F78C9C] flex rounded-3xl lg:w-[585px]">
+            <div class="inter-font p-12 flex flex-col">
+               <span class="text-4xl font-black">20% OFF </span><br>
+               <span class="text-xl font-semibold text-[#030712CC]"> on your next purchase </span><br>
+               <span class="text-lg font-medium text-[#03071280]"> use by January 2024</span>
+            </div>
+              <img src="images/cupon-devider.png" alt="" class="ml-6">
+              <div class="raleway-font flex flex-col justify-center pl-5"> 
+                <span class="text-3xl font-bold">Couple 20</span> <br>
+                <span class="text-xl font-medium text-[#03071266]">Coupon Code</span>
+              </div>
+          </div>
+        </div>
+        <div class="mt-14 text-center">
+          <button class="btn btn-outline text-[#1DD100] btn "> See All Offers </button> 
+        </div>
+      </section>
+
+      <section class="poriber">
+          <div class="text-center mt-28"> 
+            <h1 class=" raleway-font text-4xl font-bold ">P.H Paribahan</h1>
+            <p class="inter-font text-lg text-[#03071299] mt-6">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
+          </div>
+
+          <div class="bg-[#FFF] flex p-8 mt-12 pr-14"> 
+
+            <div >
+
+              <div class="flex gap-3">
+                <img src="images/bus-logo.png" alt="">
+                <div>
+                  <h1 class="raleway-font text-3xl font-bold">Greenline Paribahan</h1> 
+                  <p class="inter-font text-lg text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                </div>   
+                <button class="btn inter-font text-lg font-medium ml-60 bg-[#1DD10026] text-[#1DD100] btn"> <img src="images/seat-green.png" alt="">40 Seats left</button>
+              </div>
+
+              <div class=" mt-6 lg:w-[800px] bg-[#F7F8F8] rounded-3xl py-8">
+             <div class="flex justify-between mb-6 pt-8 pl-8 pr-8">
+              <p class="text-[#03071299]">Route</p>
+             <p class="raleway-font text-lg font-semibold">Dhaka - Sylhet</p>
+             </div>
+             <hr>
+             <div class="flex justify-between py-6 px-8">
+              <p class="text-[#03071299]">Departure Time</p>
+              <p class="raleway-font text-lg font-semibold">9:00 PM</p>
+             </div>
+             <hr>
+              <div class="mt-6 gap-6">
+                <button class="btn btn-wide bg-[#0307120D]">Boarding Point - Laxmipur</button>
+                <button class="btn btn-wide bg-[#0307120D]">Dropping Point - Bogura</button>
+                <button class="btn btn-wide bg-[#0307120D]">Est. Time - 11 Hour</button>
+              </div>
+              </div>
+
+            </div>
+            <img class="pl-14" src="images/info-devider.png" alt="">
+
+            <div class="raleway-font pl-12">
+               <img class="pt-32" src="images/fare.png" alt="">
+               <p class="text-3xl font-bold">550 Taka</p>
+               <p class="text-[#03071299] text-2xl font-semibold">Per Seat</p>
+            </div>
+             
+            </div>
+       
+      </section>
+     
     </main>
     <footer>
 
